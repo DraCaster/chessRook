@@ -1,8 +1,8 @@
 const challengeFunction = function(rookCell, destinationCell){
-    /* YOUR CODE HERE */
-    let result
 
-    return result
+    let optionOne = rookCell.split("")
+    let optionTwo = destinationCell.split("")
+    return (optionOne[0] === optionTwo[0] || optionOne[1] === optionTwo[1])
 }
 
 module.exports = challengeFunction
